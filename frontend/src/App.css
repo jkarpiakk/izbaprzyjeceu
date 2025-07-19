@@ -1,0 +1,36 @@
+body {
+  background: #F5F5F5;
+  color: #000000;
+  font-family: Arial, sans-serif;
+}
+
+.navbar {
+  background: #4CAF50;
+  color: #FFFFFF;
+}
+
+.btn-primary {
+  background: #4CAF50;
+  border: none;
+  color: #FFFFFF;
+  padding: 10px 20px;
+  font-size: 16px;
+}
+
+.card {
+  background: #FFFFFF;
+  border: 1px solid #4CAF50;
+  margin-bottom: 20px;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media (max-width: 768px) {
+  .row {
+    flex-direction: column;
+  }
+  .card {
+    width: 100%;
+  }
+}
